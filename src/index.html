@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+  
+    <!-- viewport: Renderea la web a los dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Transporte GAF</title>
+    <!-- Para el SweetAlert() -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet"/>
+    
+    <!-- BOOTSTRAP 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    
+    <!-- Estilo de Cyborg -->
+    <!-- <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css"> -->
+    <!-- <base href="/"> -->
+
+    <!-- SCROOLL REVEAL JS LIBRARY CDN -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
+    <!-- CUSTOM CSS (siempre va a lo último)-->
+    <link rel="stylesheet" href="../src/app/css/main.css">
+
+  </head>
+  <body>
+
+<!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Transporte GAF</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto"> <!-- ml-auto: Dejo el menú a la Derecha -->
+            <a class="nav-item nav-link" href="#header">Inicio</a>
+            <a class="nav-item nav-link" href="#info-one">Quienes Somos?</a>
+            <a class="nav-item nav-link" href="#contact">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- HEADER -->
+    <section id="header">
+      <div class="container mt-5"> <!-- mt-5: Margen TOP 5 -->
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-left mt-3">
+              <img src="../src/app//img/Top.png" style="width: 100%;">
+            </div>  
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="header-content-right mt-3">
+              <h3>Más de 10 años avalan nuestra trayectoria</h3> <!-- class="display-4" -->
+              <span class="glyphicon glyphicon-music"></span>
+
+              <p class="mt-3">Observe nuestra reputación en:
+                <a title="Transporte GAF - www.mercadolibre.com.ar" href="https://servicio.mercadolibre.com.ar/MLA-717894060-fletes-mudanzas-reparto-viajes-a-todo-el-pais-economico-_JM" target="blank">
+                  <img src="../src/app/img//ML_logo.png" style="width: 15%;">
+                </a>
+                
+                <br>Buscanos en Facebook:
+                <a title="Transporte GAF - Facebook" href="https://www.facebook.com/gaftransporte/" target="blank">
+                  <img src="../src/app/img/face logo.png" style="width: 10%;">
+                </a>
+              </p>
+              <a href="#" class="btn btn-secondary header-btn btn-lg mt-2">Más info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+<!-- TESTIMONIAL -->
+    <section id="testimonial">
+      <div class="container my-auto">        
+        <p class="h1 mt-2">
+          <b><u>NO INCLUYE:</u></b> Peajes, estacionamiento, espera y regreso.
+        </p>
+        <h2>No dude en consultar, su pregunta no molesta</h2> <!-- class="display-4" -->
+      </div>
+    </section>
+
+<!-- Nuestra empresa cuenta con: -->
+    <section id="info-one">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="info-left">
+              <img src="../src/app/img/Medio.png" style="width: 100%">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-right">
+              <h3>Nuestra empresa cuenta con:</h3>
+              <ul>                
+                <li><p>Peugeot HDI</p></li>
+                <li><p>Peugeot Partner:</p></li>
+                <li><p>Mercedes Benz 710</p></li>
+                <li><p>Iveco Daily Chasis Furgon</p></li>
+                <li><p>Iveco Furgon Grande</p></li>
+              </ul>
+              <!-- data-target="/" (No estaba antes) -->
+              <a href="#" id="VerVehiculos" class="btn btn-secondary btn-lg">Mostrar Vehículos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- SECCION de los VEHICULOS -->
+<!-- <section id="Vehiculos" style="display:none"> -->
+    <section id="vehiculos" style="display:none">
+      <div class="container">
+        <div class="row my-5">
+
+          <div class="row my-2">
+            <div class="col-md-6">
+              <h2>Peugeot HDI</h2>
+              <p> <b>Características principales:</b><br>
+                Amet neque nulla enim ex adipisci. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.
+              </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/app/img/Camiones/PeugeotHDI.jpg" style="width: 80%;">
+            </div>
+          </div>
+          
+          <div class="row my-2">
+            <div class="col-md-6">
+              <h2>Peugeot Partner</h2>
+              <p><b>Características principales:</b><br>
+                Amet neque nulla enim ex adipisci. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.
+              </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/app/img/Camiones/PeugeotPartner.jpg" style="width: 80%;">
+            </div>
+          </div>
+
+          <div class="row my-2">
+            <div class="col-md-6">
+                <h2>Mercedes Benz 710</h2>
+                <p><b>Características principales:</b><br>
+                  Amet neque nulla enim ex adipisci. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/app/img/Camiones/MercedesBenz710.jpg" style="width: 80%;">
+            </div>
+          </div>
+
+          <div class="row my-2">
+            <div class="col-md-6">
+                <h2>Iveco Daily Chasis Furgon</h2>
+                <p><b>Características principales:</b><br>
+                  Amet neque nulla enim ex adipisci. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/app/img/Camiones/Iveco.jpg" style="width: 80%;">
+            </div>
+          </div>
+
+          <div class="row my-2">
+            <div class="col-md-6">
+                <h2>Iveco Furgon Grande</h2>
+                <p><b>Características principales:</b><br>
+                  Amet neque nulla enim ex adipisci. Dolorum maxime at mollitia eius explicabo maxime eaque hic eveniet corporis est officia corporis laudantium sed odit officia, voluptates iure in doloremque. Atque quo.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../src/app/img/Camiones/IvecoGrande.jpg" style="width: 80%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--FIN SECCION de los VEHICULOS -->
+
+<!-- FORMULARIO -->
+    <footer id="contact">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col-md-5">
+            <form class="card mt-4">
+              <div class="card-body">
+                <div class="form-group">
+                  <input type="text" id="txtName" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <input type="text" id="txtEmail" class="form-control" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <textarea cols="30" rows="10" id="txtMensaje" placeholder="Message" class="form-control"></textarea>
+                </div>
+                <!-- onclick="enviarMensaje(e)" -->
+                <button id="Enviar" type="submit" (submit)="noRefrecar()" class="btn btn-outline-secondary btn-block">
+                  Enviar
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+<!-- FIN FORMULARIO -->
+
+    <!-- Función para Mostrar y Ocultar los Vehículos -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
+
+    <!-- BOOTSTRAP 4 SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="../src/app/js/animacion.js"></script>
+    <script type="text/javascript" src="../src/app/js/index.js"></script>
+
+  </body>
+</html>
